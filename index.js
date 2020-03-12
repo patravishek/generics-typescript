@@ -1,6 +1,5 @@
-function greeter(person) {
-    return person;
+function returningInputs(arg) {
+    // Array has a .length, so no more error
+    console.log(arg.length);
+    return arg;
 }
-console.log(greeter('Avishek'));
-console.log(greeter(1));
-console.log(greeter(1.4));
